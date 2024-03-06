@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'TAN-MONCHERI';
+    src: url("/fonts/TAN-MONCHERI.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Ovo';
+    src: url('/fonts/Ovo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Giaza';
+    src: url('/fonts/Giaza.otf') format('truetype');
+}
+:root{
+    --cream:#FFFCF6;
+    --light-cream:rgba(255, 253, 249, 0.90);
+    --grey:#F6F4F1;
+    --blue:#3C6CA8;
+    --pale-blue:#AEB7B5;
+    --dark-blue:#1D3350;
+    --green:#3CA871;
+
+}
+
+body{
+    margin: 0;
+    color:var(--dark-blue);
+    font-family: 'Ovo';
+    background: url('/images/BlackRockDome.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+/*HOMEPAGE*/
+#home-body{
+    overflow: hidden;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#logo-container{
+    position: absolute;
+    top:0;
+    left:1em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: var(--cream);
+    padding: 1.2rem .7rem 1.2rem .7rem;
+    border-bottom:.1px solid var(--dark-blue);
+    border-right:.1px solid var(--dark-blue);
+    border-left:.1px solid var(--dark-blue);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#logo-container a{
+    font-family: 'Giaza';
+    text-align: center;
+    margin: .5rem 0;
+    color:var(--dark-blue);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+#logo-container img{
+    padding: .5rem;
+    margin: auto 0 auto 0;
+}
+.intro{
+    text-align: center;
+    font-size: 22px;
+    background-color: var(--light-cream);
+    border-radius: 70px;
+    padding: 1em 1.5em 1em 1.5em;
+    margin: 0 1em 0 1em;
+}
+.intro h1{
+   
+    font-family: 'TAN-MONCHERI';
+    font-size: 66px;
+}
+
+
+
+#home-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#home-nav a{
+    background: linear-gradient(90deg, rgba(205, 255, 216,0.95) 50%, rgba(148, 185, 255,0.95) 100%);
+    border:none;
+    border-radius: 15px;
+    padding: .5em 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+#home-nav a:hover{
+    background: var(--blue);
+    color: var(--cream);
+}
+/*MAIN NAV*/
+
+#main-nav{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin:1.5em 1em 5em 0;
+}
+
+#main-nav a{
+    margin-left: .5em;
+    text-decoration: none;
+    color:var(--dark-blue);
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(205, 255, 216, 0.95) 50%, rgba(148, 185, 255, 0.95) 100%);
+    border:none;
+    border-radius: 15px;
+    padding: .2em 1em;
+    cursor: pointer;
+
+}
+#main-nav a:hover{
+    background: var(--blue);
+    color: var(--cream);
+}
+/*ABOUT ME*/
+
+.aboutMeMain h1{
+    font-family: 'Giaza';
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    text-shadow: 1px 1px 1.5px white;
+}
+
+.aboutMeMain{
+    margin-top: 2.5em;
+    font-size: 22px;
+}
+.aboutMe-container{
+    background-color: var(--light-cream);
+    padding: 2.5em;
+    line-height: 1.5em;
+    border-radius: 40px;
+    text-align: justify;
+    margin-right:2em;
+    margin-left:2em ;
+    margin-bottom: 1.5em;
+}
+.hereText{
+    color:var(--blue);
+}
+
+
+
+/*PROJECTS*/
+
+#projects-grid{
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 1rem;
+}
+.project{
+    display: flex;
+}
+.project p{
+    padding: 2rem;
+    border-radius:25px;
+    text-align: justify;
+    font-size: 22px;
+}
