@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valeria Bisso | About</title>
     <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/mobile.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,22 +14,29 @@
         <a href="index.html">Valeria<br>Bisso</a>
     </div>
  
-    <nav id="main-nav">
+    <nav id="main-nav" >
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a>Contact </a>
+    </nav>
+    <nav id="side-nav" class="sidenav">
+        <a class="closebtn" href="javascript:void(0)" onClick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
         <a>Contact </a>
     </nav>
 
+    <div id=buttonCont>
+        <span id="button" onclick="openNav()">&#9776;</span>
+    </div>
+
 
     <main class="aboutMeMain">
         <h1>About Me</h1>
         <div class="aboutMe-container">
-            <p>As a passionate software engineering student with a keen interest in web development, I am dedicated to
-                crafting digital experiences that seamlessly blend creativity, aesthetics, and functionality. With a
-                great eye for detail and a commitment to continual improvement, I strive to deliver innovative solutions
-                that captivate users and exceed expectations.
-                <br>I am eager to collaborate and contribute my expertise to projects that challenge me to grow and
+            <p>I am dedicated to crafting digital experiences that seamlessly blend creativity, aesthetics, and functionality. I am eager to collaborate and contribute my expertise to projects that challenge me to grow and
                 innovate. Feel free to reach out to me to discuss potential opportunities or to learn more about my
                 latest projects. You can find my latest resume <a class="hereText" href="VBISSO.pdf"
                     download="VBISSO.pdf">here</a>.
@@ -36,15 +44,23 @@
         </div>
         <div class="aboutMe-skills">
             <div class="skills">
-                <h1 id="skills">Skills</h1>
+                <h1>Skills</h1>
             </div>
-            <div class="aboutMe-img">
+            <div class="skills-container">
+                <ul>
+                    <li><img src="images/html.svg" alt="HTML logo"></li>
+                    <li><img src="images/CSS3_logo.svg" alt="CSS logo"></li>
+                    <li><img src="images/js.svg" alt="JS logo"></li>
+                    <li><img src="images/Logo_C_sharp.svg" alt="C# logo"></li>
+                </ul>
+
             </div>
 
 
         </div>
 
     </main>
+    <script src="scripts/scripts.js"></script>
 
 </body>
 

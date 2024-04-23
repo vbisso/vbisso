@@ -1,11 +1,28 @@
+:root{
+  --cream:#FFFCF6;
+  --light-cream:rgba(255, 253, 249, 0.90);
+  --grey:#F6F4F1;
+  --blue:#3C6CA8;
+  --pale-blue:#AEB7B5;
+  --dark-blue:#1D3350;
+  --green:#3CA871;
+
+}
 @media screen and (max-width: 768px) {
+    .intro{
+        margin-top: 2.5em;
+    }
     .intro h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+    .intro p{
+      font-size: 80%;
     }
     #home-nav{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 2em 0 2em 0;
     }
     #home-nav a{
         width: 35%;
@@ -15,5 +32,78 @@
         overflow:scroll;
     }
 
+    /*PROJECTS*/
+    .project{
+      width: 30%;
+    }
 
+
+
+}
+@media screen and (max-width: 600px) {
+    #main-nav{
+        display: none;
+    }
+    #side-nav {
+        display:block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: var(--blue);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+      }
+      #side-nav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color:var(--cream);
+        display: block;
+        transition: 0.3s;
+      }
+      #side-nav a:hover{
+        color: #f1f1f1;
+      }
+      #side-nav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      #buttonCont{
+        display:flex;
+        justify-content:right;
+        margin: 1rem 1rem 0 0;
+        font-size:35px;
+      } 
+      #button{
+        color: var(--dark-blue);
+        background: linear-gradient(90deg, rgba(205, 255, 216, 0.95) 50%, rgba(148, 185, 255, 0.95) 100%);
+        border:none;
+        border-radius: 7px;
+        padding: 0px 5px 0px 5px;
+
+    }
+    .aboutMeMain h1{
+        font-size: 2.5rem;
+    }
+    .aboutMe-container{
+        font-size: 80%;
+        text-align: center;
+    }
+
+    /*PROJECTS*/
+    .project{
+      min-width: 65%;
+    }
+    #projects-container{
+      margin-top:4em;
+    }
+   
 }

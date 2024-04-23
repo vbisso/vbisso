@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valeria Bisso | Projects</title>
     <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/mobile.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,35 +14,43 @@
         <a href="index.html">Valeria<br>Bisso</a>
     </div>
  
-    <nav id="main-nav">
+    <nav id="main-nav" >
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a>Contact </a>
+    </nav>
+    <nav id="side-nav" class="sidenav">
+        <a class="closebtn" href="javascript:void(0)" onClick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
         <a>Contact </a>
     </nav>
 
+    <div id=buttonCont>
+        <span id="button" onclick="openNav()">&#9776;</span>
+    </div>
+
 
 
 
     <main id="projectsMain">
 
-        <div id="projects-grid">
-            <div class="project" id="project1">
-                <div>Project 1</div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p>
-            </div>
-            <div class="project" id="project1">
-                <div>Project 1</div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p>
-            </div>
-            <div class="project" id="project1">
-                <div>Project 1</div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p>
-            </div>
+        <div id="projects-container">
+            <ul class="projects-list">
+                <li class="project"><div>Project 1 IMG</div><div><span>Project 1</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+                <li class="project"><div>Project 2 IMG</div><div><span>Project 2</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+                <li class="project"><div>Project 3 IMG</div><div><span>Project 3</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+                <li class="project"><div>Project 4 IMG</div><div><span>Project 1</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+                <li class="project"><div>Project 5 IMG</div><div><span>Project 2</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+                <li class="project"><div>Project 6 IMG</div><div><span>Project 3</span><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto eius sapiente facere ducimus culpa, similique aperiam corrupti molestias. Dolore repellat exercitationem officia consectetur dicta officiis eum odio earum similique?</p></div></li>
+            </ul>
 
         </div>
         
     </main>
+    <script src="scripts/scripts.js"></script>
 
 </body>
 
