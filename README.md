@@ -23,6 +23,12 @@ I'm Valeria Bisso, a software engineering student at Brigham Young University-Id
   - Front-end development
   - Problem-solving and debugging
   - Responsive web design
+ 
+## Projects and Work
+
+  Here are some of my significant or favorite projects:
+- **Miami Chamber of Commerce**: [Repository Link](https://github.com/vbisso/wdd230/tree/master/chamber)
+- **Love Calculator**: [Repository Link](https://github.com/your-repo-link](https://github.com/vbisso/love-calculator)
 
 ## Let's Connect!
 
