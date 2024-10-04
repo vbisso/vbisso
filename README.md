@@ -26,6 +26,6 @@ I'm Valeria Bisso, a software engineering student at Brigham Young University-Id
 
 ## Let's Connect!
 
-- 💼 [LinkedIn](www.linkedin.com/in/valeria-bisso)
+- 💼 [LinkedIn](https://www.linkedin.com/in/valeria-bisso)
 
 Feel free to explore my repositories and don't hesitate to reach out. Happy coding! 🚀
