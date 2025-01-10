@@ -1,35 +1,21 @@
-# Valeria Bisso
+# Overview
 
-Hello, GitHub! 👋
+Welcome to my personal repository, where I showcase some of my favorite projects! It’s designed to highlight my skills, document my growth as a developer, and share my work with others. Feel free to explore and learn more about what I do. 👩🏻‍💻
 
-I'm Valeria Bisso, a software engineering student at Brigham Young University-Idaho interested in web development and UX/UI design. Welcome to my GitHub profile!
+[Software Demo Video](http://youtube.link.goes.here)
 
-## About Me
+# Development Environment
 
-- 🌱 I'm currently working on enhancing my **React.js** and **TypeScript** skills
-- 🎯 My goals are to enhance my web development skills, specialize in front-end development, and contribute to user-friendly, accessible web applications.
-- 💡 Ask me about **UX/UI design**, web development, or anything related to **JavaScript** and modern web technologies.
+To build this portfolio, I'm using Visual Studio Code as my code editor. It offers great flexibility and has useful extensions to streamline the coding process. I also rely on Git for version control. I’m currently working with HTML for the structure, CSS for styling, and JavaScript to add dynamic features.
 
-## Technologies and Tools
+# Useful Websites
 
-- Proficient in:
-  - **Languages:** JavaScript, HTML, CSS, C#, SQL
-  - **Frameworks & Libraries:** React.js, TypeScript
-  - **Tools:** Git/GitHub, npm
-  - **UX/UI Design Skills**
-  
-- Skills:
-  - UX/UI design
-  - Front-end development
-  - Problem-solving and debugging
-  - Responsive web design
- 
-## Portfolio
-
-- 💼 [My Portfolio](https://vbisso.github.io/vbisso/)
+{Make a list of websites that you found helpful in this project}
+* [Web Site Name](http://url.link.goes.here)
+* [Web Site Name](http://url.link.goes.here)
 
 ## Let's Connect!
 
 - 🤝 [LinkedIn](https://www.linkedin.com/in/valeria-bisso)
 
-Feel free to explore my repositories and don't hesitate to reach out. Happy coding! 🚀
+Feel free to explore my repositories and don't hesitate to reach out. 🚀
