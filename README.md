@@ -8,9 +8,8 @@ To build this portfolio, I'm using Visual Studio Code as my code editor. It offe
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [W3Schools](https://www.w3schools.com/)
+* [MDN](https://developer.mozilla.org/en-US/)
 
 ## Let's Connect!
 
